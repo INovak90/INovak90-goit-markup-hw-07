@@ -1,0 +1,32 @@
+.section-clients__title {
+  @extend %work-team__title;
+  margin-bottom: 50px;
+}
+.clients-list {
+  display: flex;
+  gap: 30px;
+}
+.clients-list__link {
+  transition: border-color $timing-function-cubic;
+
+  @extend %flex-center;
+  width: 170px;
+  height: 92px;
+  border-radius: 4px;
+  border: 1px solid $bkg-color-social-network;
+  &:hover,
+  &:focus {
+    border-color: $accent-color;
+  }
+}
+.clients-list__icon {
+  transition: fill $timing-function-cubic;
+
+  width: 106px;
+  height: 62px;
+  fill: $bkg-color-social-network;
+  .clients-list__link:hover &,
+  .clients-list__link:focus & {
+    fill: $accent-color;
+  }
+}
