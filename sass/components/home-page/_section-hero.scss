@@ -47,7 +47,8 @@
   letter-spacing: 0.06em;
   color: $primary-white-color;
   background-color: $accent-color;
-  &:hover, &:focus {
+  &:hover,
+  &:focus {
     background-color: $studio-btn-accent-color;
   }
 }
