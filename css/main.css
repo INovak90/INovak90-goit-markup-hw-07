@@ -943,6 +943,7 @@ li {
   line-height: 1.7;
   letter-spacing: 0.03em;
   color: #2196f3;
+  text-decoration: underline;
 }
 
 .contract-checkbox__icon {
